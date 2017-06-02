@@ -21,10 +21,10 @@
             <div class="col-sm-6 col-md-3" style="padding-bottom: 15px">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h3>${customer.name}</h3>
-                        <p>${customer.address}</p>
-                        <p>${customer.customerId}</p>
-                        <p>${customer.noOfOrdersMade} </p>
+                        <h3>nazwisko: ${customer.name}</h3>
+                        <p>miasto: ${customer.address}</p>
+                        <p>id: ${customer.customerId}</p>
+                        <p>ilość zamówień: ${customer.noOfOrdersMade} </p>
 
                     </div>
                 </div>

@@ -4,11 +4,12 @@ import com.packt.webstore.domain.Customer;
 import com.packt.webstore.domain.repository.CustomerRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Repository
 public class InMemoryCustomerRepository implements CustomerRepository {
-    private List<Customer> listOfCustomers;
+    private List<Customer> listOfCustomers = new ArrayList<Customer>();
 
     public InMemoryCustomerRepository(){
         Customer customer1 = new Customer("1","Kowalski", "Lublin", 1L);
