@@ -34,4 +34,7 @@ private ProductRepository productRepository;
     public List<Product> getProductsByManufacturer(String manufacturer) {
         return productRepository.getProductsByManufacturer(manufacturer);
     }
+    public void addProduct(Product product) {
+        productRepository.addProduct(product);
+    }
 }

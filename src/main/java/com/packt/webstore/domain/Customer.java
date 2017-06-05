@@ -14,6 +14,6 @@ public class Customer {
     String address;
     Long noOfOrdersMade;
 
-
-
+    public Customer() {
+    }
 }
