@@ -1,6 +1,8 @@
 package com.packt.webstore.domain;
 
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
+
 import java.math.BigDecimal;
 
 
@@ -18,6 +20,7 @@ public class Product {
     private boolean discontinued;
     private String condition;
 
+    private MultipartFile productImage;
 
     public Product() {
         super();
